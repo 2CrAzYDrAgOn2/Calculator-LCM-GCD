@@ -100,15 +100,18 @@
             // 
             textBoxFirstNumber.Font = new Font("Segoe UI", 14F);
             textBoxFirstNumber.Location = new Point(72, 93);
+            textBoxFirstNumber.MaxLength = 29;
             textBoxFirstNumber.Name = "textBoxFirstNumber";
             textBoxFirstNumber.Size = new Size(300, 32);
             textBoxFirstNumber.TabIndex = 5;
             textBoxFirstNumber.TextAlign = HorizontalAlignment.Center;
+            textBoxFirstNumber.TextChanged += textBoxFirstNumber_TextChanged;
             // 
             // textBoxSecondNumber
             // 
             textBoxSecondNumber.Font = new Font("Segoe UI", 14F);
             textBoxSecondNumber.Location = new Point(402, 93);
+            textBoxSecondNumber.MaxLength = 29;
             textBoxSecondNumber.Name = "textBoxSecondNumber";
             textBoxSecondNumber.Size = new Size(300, 32);
             textBoxSecondNumber.TabIndex = 6;

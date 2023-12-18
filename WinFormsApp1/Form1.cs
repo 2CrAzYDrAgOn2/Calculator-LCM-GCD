@@ -201,5 +201,10 @@ namespace WinFormsApp1
             }
             return a;
         }
+
+        private void textBoxFirstNumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
